@@ -56,7 +56,7 @@ namespace FreshSignalR
             {
                 app.UseExceptionHandler("/Home/Error");
             }
-
+             
             app.UseStaticFiles();
             app.UseCookiePolicy();
             // global cors policy
